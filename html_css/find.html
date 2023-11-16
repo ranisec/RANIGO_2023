@@ -40,11 +40,11 @@
     </header>
 
     <main class="main-screen">
-        <div class="find-icons">
-            <div class="find-icons__icon"><i class="fas fa-qrcode"></i><span>QR Code</span></div>
-            <div class="find-icons__icon"><i class="far fa-address-book"></i><span>Add by Contacts</span></div>
-            <div class="find-icons__icon"><i class="fas fa-fingerprint"></i><span>Add by ID</span></div>
-            <div class="find-icons__icon"><i class="far fa-envelope"></i><span>Invite</span></div>
+        <div class="icon-row">
+            <div class="icon-row__icon"><i class="fas fa-qrcode"></i><span>QR Code</span></div>
+            <div class="icon-row__icon"><i class="far fa-address-book"></i><span>Add by Contacts</span></div>
+            <div class="icon-row__icon"><i class="fas fa-fingerprint"></i><span>Add by ID</span></div>
+            <div class="icon-row__icon"><i class="far fa-envelope"></i><span>Invite</span></div>
         </div>
         <div class="recommended-friends">
             <h6 class="recommended-freinds__title">Recommended Friends</h6>
@@ -69,9 +69,15 @@
                     </div>
                     <div class="open-post__column"></div>
                 </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://avatars3.githubusercontent.com/u/3612017">
+                        <div class="open-post__heart-count"><i class="fas fa-heart"></i><span>326</span></div>
+                    </div>
+
+                </div>
             </div>
     </main>
-
 
 
     <nav class="nav">
@@ -81,9 +87,13 @@
             <li class="nav__btn"><a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i
                         class="far fa-comment fa-2x"></i></a></li>
             <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><span
+                        class="nav__notification badge_3 badge_locate"></span><i
+                        class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
         </ul>
     </nav>
+    <div id="no-mobile">your screen is too big</div>
     <script src="https://kit.fontawesome.com/c17861a89c.js" crossorigin="anonymous"></script>
 </body>
 

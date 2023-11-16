@@ -10,3 +10,35 @@
   color: white;
   font-weight: 600;
 }
+
+.badge_2 {
+  border: 1px solid tomato;
+  border-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  font-size: 10px;
+  color: tomato;
+  text-align: center;
+  display: block;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.badge_3 {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 15px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  font-weight: 600;
+}
+
+.badge_locate {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
