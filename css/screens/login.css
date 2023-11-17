@@ -49,6 +49,7 @@
   font-weight: bold;
   padding: 20px 0px;
   border-radius: 5px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 #login-form a {
